@@ -6,7 +6,7 @@
  * @flow
  */
 
-import React, { Fragment } from "react";
+import React, { Fragment } from 'react';
 // import { Fragment } from "react";
 import {
   SafeAreaView,
@@ -15,7 +15,7 @@ import {
   View,
   Text,
   StatusBar
-} from "react-native"
+} from 'react-native';
 
 import {
   Header,
@@ -23,7 +23,7 @@ import {
   Colors,
   DebugInstructions,
   ReloadInstructions
-} from "react-native/Libraries/NewAppScreen"
+} from 'react-native/Libraries/NewAppScreen';
 
 const App = () => {
   return (
@@ -82,17 +82,17 @@ const styles = StyleSheet.create({
   },
   sectionTitle: {
     fontSize: 24,
-    fontWeight: "600",
+    fontWeight: '600',
     color: Colors.black
   },
   sectionDescription: {
     marginTop: 8,
     fontSize: 18,
-    fontWeight: "400",
+    fontWeight: '400',
     color: Colors.dark
   },
   highlight: {
-    fontWeight: "700"
+    fontWeight: '700'
   }
 });
 
